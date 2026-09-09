@@ -1,0 +1,14 @@
+[2026-09-09T21:01:46Z] === ENRICH ITERATION 1 START | repo=asciidoctor/asciidoctor-tabs sha=7c796555 ===
+[2026-09-09T21:01:46Z] [iter=1] PHASE START: enrich repo=asciidoctor/asciidoctor-tabs sha=7c796555 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/7c796555-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/7c7965554c75fb1295488f04d836ebf2bb9b3459.nq.gz
+[2026-09-09T21:01:49Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-09-09T21:01:50Z] [iter=1] AST store loaded triples=93762 load_secs=1 mem_mb=220 MB
+[2026-09-09T21:01:50Z] [iter=1] Step 2: Finding LSP targets mem_mb=220 MB
+[2026-09-09T21:01:50Z] [iter=1] LSP targets found call_sites=1375 imports=0 extends=0 implements=0 secs=0
+[2026-09-09T21:01:50Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=220 MB
+[2026-09-09T21:01:50Z] [iter=1] Position index built positions=6689 nodes_with_types=8229 secs=0 mem_mb=220 MB
+[2026-09-09T21:01:50Z] [iter=1] Step 3: Starting LSP resolution mem_mb=220 MB already_completed_types=[] already_completed_files=0
+[2026-09-09T21:01:50Z] [iter=1] Resolving target type target_type=call_site count=1375
+[2026-09-09T21:02:09Z] [iter=1] Target type resolved target_type=call_site resolved=88 errors=1596 secs=19 mem_mb=220 MB
+[2026-09-09T21:02:13Z] [iter=1] Step 5: Writing final enrichment file triples=3575
+[2026-09-09T21:02:13Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/7c7965554c75fb1295488f04d836ebf2bb9b3459.nq.gz size_kb=48
+[2026-09-09T21:02:13Z] [iter=1] PHASE END: enrich elapsed_s=26 elapsed_min=0.4 total_triples=3575
